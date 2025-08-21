@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sign-up.css">
+</head>
+<body>
+    <header>
+        <h1 class="hidden">부동산 회원가입</h1>
+        <nav id="navbar">
+            <div class="nav-menu">
+                <a href="index.html" class="logo">승진부동산</a>
+                <ul>
+                    <li><a href="comdpany.html">회사소개</a></li>
+                    <li><a href="product.html">매물찾기</a></li>
+                    <li><a href="contactus.html">문의하기</a></li>
+                    <li><a href="login.html">로그인</a></li>
+                    <li><a href="blurb.html">중개사무소 광고문의</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="signup-container">
+        <h2>회원가입</h2>
+        <form action="#">
+            <div class="form-group">
+                <label for="username">사용자 이름</label>
+                <div class="input-button">
+                    <input type="text" id="username" placeholder="이름을 입력하세요" required>
+                    <button type="button" class="verify-button" onclick="verifyUsername()">중복확인</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">이메일</label>
+                <div class="input-button">
+                    <input type="email" id="email" placeholder="example@email.com" required>
+                    <button type="button" class="verify-button" onclick="verifyEmail()">중복확인</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="password">비밀번호</label>
+                <input type="password" id="password" placeholder="비밀번호를 입력하세요" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">비밀번호 확인</label>
+                <input type="password" id="confirm-password" placeholder="다시 한 번 입력하세요" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">전화번호</label>
+                <div class="input-button">
+                    <input type="tel" id="phone" placeholder="전화번호를 입력하세요">
+                    <button type="button" class="verify-button" onclick="sendVerification()">인증번호 전송</button>
+                </div>
+            </div>
+            <button type="submit" class="submit-btn">가입하기</button>
+            <div class="login-link">
+                이미 계정이 있으신가요? <a href="login.html">로그인</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

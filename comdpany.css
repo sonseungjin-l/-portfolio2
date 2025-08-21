@@ -1,0 +1,155 @@
+@charset "utf-8";
+:root{
+    --major:#4ae27f;
+    --title:#1abc9c;
+}
+section{
+        margin-bottom: 60px;
+}
+/* article */
+#subHeaderComdpany{
+    position: relative;
+    margin-left: 25%;
+    text-align: center;
+    background: white;
+    width: 50%;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.subHeaderComdpany-img {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../image/bgsub_header.jpg);
+    margin-bottom: 20px;
+}
+#subHeaderComdpany span {
+    color: #000;
+    font-family: 'Pretendard';
+    font-size: 1.2rem;
+}
+#subHeaderComdpany h2 {
+    color: var(--title);
+}
+#subHeaderComdpany p {
+    font-size: 1.1rem;
+    color: #000;
+}
+/* main */
+#main-section{
+    max-width: 1200px;
+    margin: 4rem auto;
+}
+#main-section h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    border-left: 4px solid #1abc9c;
+    padding-left: 10px;
+}
+
+/* 회사의 약속 */
+.main-comdpany{
+    margin-bottom: 60px;
+}
+.main-comdpany h3{
+    font-size: 1.5rem;
+}
+.main-comdpany h3 span {
+    color: #2c88c6;
+}
+.main-comdpany p {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #34495e;
+    padding: 1rem;
+    /* text-align: center; */
+}
+.ComdpanyPolicy {
+    background: #ecf0f1;
+    margin-top: 1rem;
+    padding: 1rem;
+    /* border-left: 4px solid #1abc9c; */
+    width: 60%;
+}
+
+/* 회사 연혁 */
+.history-comdpany{
+    margin-bottom: 60px;
+}
+
+.history-comdpany span {
+    font-weight: normal;
+}
+.timeline{
+    /* margin: 4rem; */
+}
+.timeline_dl{
+    display: flex;
+    align-items: baseline;
+    gap: 2rem;
+    margin-bottom: 10px;
+}
+.timeline_y{
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #2c88c6;  
+}
+.timeline_ex {
+    font-size: 1.4rem;
+    color: #000;
+}
+.timeline_dd2 {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.timeline_dt {
+    width: 80px;
+    font-weight: bold;
+    font-size: 1.35rem;
+    color: #2980b9;
+}
+.timeline_dd{
+    display: flex;
+    display: inline-block;
+    flex-direction: row;
+        margin-left: 10px;
+        font-size: 1.2rem;
+}
+.timeline_column {
+    justify-content: column;
+}
+
+/* 대표 소개 */
+.executive img{
+    height: 140px;
+}
+.business {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+.business figure{
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: 0.5s ease;
+}
+.business figure img{
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    max-width: 100%;
+}
+.business figcaption{
+    font-size: 1.4rem;
+}
+.business p {
+    color: #000;
+}
