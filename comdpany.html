@@ -6,17 +6,21 @@
     <title>부동산 중개 회사소개</title>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/comdpany.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="js/jquery-3.7.1.js"></script>
+     <script src="js/common2.js"></script>
+    <script src="js/comdpany.js"></script>
 </head>
 <body>
     <header>
         <h1 class="hidden">부동산 중개 회사소개</h1>
         <nav id="navbar">
-            <div class="nav-menu">
+            <div class="nav_menu">
                 <a href="index.html" class="logo">승진부동산</a>
                 <ul>
                     <li><a href="comdpany.html">회사소개</a></li>
+                    <li><a href="inquiry.html">문의하기</a></li>
                     <li><a href="product.html">매물찾기</a></li>
-                    <li><a href="contactus.html">문의하기</a></li>
                     <li><a href="login.html">로그인</a></li>
                     <li><a href="blurb.html">중개사무소 광고문의</a></li>
                 </ul>
@@ -30,7 +34,7 @@
         <h2>저희 부동산 회사는</h2>
         <p>우리 회사는 혁신과 품질을 바탕으로 최고의 서비스를 제공하기 위해 노력하고 있습니다.</p>
     </article>    
-    <!-- main -->
+    <!-- Main -->
     <main id="main-section">
         <section class="main-comdpany">
             <h2>회사의 약속</h2>
@@ -54,26 +58,18 @@
                     <div class="timeline_dl">
                         <p class="timeline_y">2003</p>
                         <p class="timeline_ex">회사 설립</p>
-                        <!-- <div class="timeline_dt">2003</div>
-                        <div class="timeline_dd">회사 설립</div> -->
                     </div>
                     <div class="timeline_dl">
                         <p class="timeline_y">2013</p>
                         <p class="timeline_ex">모바일 서비스 도입</p>
-                        <!-- <div class="timeline_dt">2013</div>
-                        <div class="timeline_dd">모바일 플랫폼 도입</div> -->
                     </div>
                     <div class="timeline_dl">
                         <p class="timeline_y">2019</p>
                         <p class="timeline_ex">대구광역시 부동산 거래 기업 우수 선정</p>
-                        <!-- <div class="timeline_dt">2019</div>
-                        <div class="timeline_dd">경상북도 부동산 거래 기업 우수 선정</div> -->
                     </div>
                     <div class="timeline_dl">
                         <p class="timeline_y">2022</p>
                         <p class="timeline_ex">경북내 지점 10개 설치</p>
-                        <!-- <div class="timeline_dt">2022</div>
-                        <div class="timeline_dd">베트남 현지 기업과 해외 진출 협업</div> -->
                     </div>
                     <div class="timeline_dl">
                         <p class="timeline_y">2023</p>
@@ -81,18 +77,6 @@
                             <p class="timeline_ex">회사 창업 20주년</p>
                             <p class="timeline_ex">경상북도 부동산 거래 기업 우수 선정</p>
                         </div>
-                        <!-- <p>회사 창업 20주년</p>
-                        <p>경상북도 부동산 거래 기업 우수 선정</p> -->
-                        <!-- <div class="timeline_dt">2023
-                            <div class="timeline_column">
-                            <div class="timeline_dd">회사 창업 20주년</div>
-                            <div class="timeline_dd">대구시장 표창 수상</div> -->
-                        <!-- </div> -->
-                        <!-- </div> -->
-                        <!-- <div class="timeline_column"> -->
-                            <!-- <div class="timeline_dd">회사 창업 20주년</div> -->
-                            <!-- <div class="timeline_dd">대구시장 표창 수상</div> -->
-                        <!-- </div> -->
                     </div>
                     <div class="timeline_dl">
                         <p class="timeline_y">2024</p>
@@ -119,6 +103,33 @@
                     <p>영업이사</p>
                     <figcaption>이영업</figcaption>
                 </figure>
+            </div>
+        </section>
+        <!-- 실적 통계 섹션 HTML -->
+        <section class="stats-section">
+            <div class="stat-item">
+                <i class="fas fa-handshake stat-icon"></i>
+                <div class="stat-title">누적 거래 건수</div>
+                <div class="stat-number" data-target="15000" data-suffix="+">0</div>
+                <div class="stat-description">2010년 설립 이후 달성한 신뢰할 수 있는 거래 실적</div>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-smile stat-icon"></i>
+                <div class="stat-title">고객 만족도</div>
+                <div class="stat-number" data-target="98" data-suffix="%">0</div>
+                <div class="stat-description">실시간 고객 피드백 기반 만족도 조사 결과</div>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-users stat-icon"></i>
+                <div class="stat-title">전문 상담사</div>
+                <div class="stat-number" data-target="250" data-suffix="+">0</div>
+                <div class="stat-description">각 분야 10년 이상 경력의 부동산 전문가</div>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-map-marker-alt stat-icon"></i>
+                <div class="stat-title">전국 지점</div>
+                <div class="stat-number" data-target="25" data-suffix="점">0</div>
+                <div class="stat-description">전국 주요 도시의 직영 지점 운영</div>
             </div>
         </section>
     </main>
